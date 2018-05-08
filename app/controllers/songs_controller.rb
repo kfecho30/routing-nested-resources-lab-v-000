@@ -9,6 +9,7 @@ class SongsController < ApplicationController
     else
       @songs = Song.all
     end
+    binding.pry
   end
 
   def show
